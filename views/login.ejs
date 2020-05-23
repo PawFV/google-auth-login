@@ -51,21 +51,30 @@
             padding: 10px;
             background: #ff5353;
          }
+
+         .facebook-btn {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px;
+            background: #0672E7;
+         }
       </style>
    </head>
 
    <body>
       <nav>
          <ul>
-            <li><a href="/auth/logout">Logout</a></li>
-            <li><a href="/auth/login">Login</a></li>
             <li><a href="/">Homepage</a></li>
+            <!-- <li><a href="/auth/logout">Logout</a></li>
+            <li><a href="/auth/login">Login</a></li> -->
          </ul>
       </nav>
       <header>
          <h1>Login using...</h1>
       </header>
       <main>
+         <a class="facebook-btn" href="/auth/facebook">facebook</a>
          <a class="google-btn" href="/auth/google">Google+</a>
       </main>
    </body>

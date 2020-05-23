@@ -56,13 +56,15 @@
             <% } else { %>
             <li><a href="/auth/login">Login</a></li>
             <% } %>
-            <li><a href="/profile">profile</a></li>
          </ul>
       </nav>
       <header>
-         <h1>Homepage</h1>
+         <h1> Welcome to your profile <%=user.username %> </h1>
       </header>
       <main>
+         <img src=<%=user.imageUrl %>>
+
+         </img>
       </main>
    </body>
 
